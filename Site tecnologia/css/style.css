@@ -1,0 +1,175 @@
+/* Limpar formatações */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatações genéricas */
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C4C4C4;
+}
+
+h1 {
+    color: #252525;
+    font-size: 40px;
+}
+
+h2 {
+    color: #06c;
+}
+
+h3 {
+    color: #565656;
+    background: #CCCCCC;
+    padding: 5px;
+}
+
+/* Header */
+#header {
+    background-color: rgb(0, 140, 255);
+    padding: 15px;
+    text-align: center;
+}
+
+#Logo, #menu {
+    padding: 10px;
+}
+
+#header a:link, #header a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#header a:hover {
+    color: aqua;
+    background-color: white;
+    text-decoration: none;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+/* Content */
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+.data-post {
+    font-size: 13px;
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post {
+    width: 620px;
+    max-width: 100%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+}
+
+/* Estilo exclusivo para a página de jogos */
+#posts h2 {
+    color: #0056b3; /* Um azul mais escuro */
+    border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 5px;
+}
+
+/* Estilização das listas na barra lateral */
+#right-side ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#right-side ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#right-side ul li a {
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+}
+
+#right-side ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Limpar formatações*/
+
+#right-side {
+    width: 240px;
+    float: right;
+}
+
+.content-right {
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-right {
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+/* Formatação links */
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: rgb(0, 81, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #FFFFFF;
+    color: rgb(0, 153, 255);
+}
+
+/* Personalização adicional para jogos*/
+
+/* Destaque do menu para página ativa */
+#header a[style="text-decoration: underline;"] {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Fundo especial para h3 na barra lateral */
+.content-right h3 {
+    background-color: #0056b3;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
